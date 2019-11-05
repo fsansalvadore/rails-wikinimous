@@ -1,0 +1,83 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  align-items: center;
+  text-decoration: none !important;
+  color: #222;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#logo, #add-btn {
+  height: 60px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #999;
+}
+
+#logo:hover {
+  color: #333;
+}
+
+#add-btn {
+  position: absolute;
+  right: 0;
+  background-color: #007bff;
+  color: #f9f9f9 !important;
+  transition: all 0.2s ease;
+}
+
+#add-btn:hover {
+  background-color: #0063cc;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  background-color: #ddd;
+  display: flex;
+}
+
+hr{
+  margin: 30px 0;
+}
+
+.article {
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  padding: 30px;
+  margin-bottom: 50px;
+  border-radius: 2px;
+}
+
+// .article-btns {
+//   display: flex;
+// }
+
+.action-btns {
+  float: right;
+}
+
+.action-btns a:first-child {
+  margin-right: 4px;
+}
+
+.article span {
+  opacity: 0.5;
+}
